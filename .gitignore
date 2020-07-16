@@ -1,0 +1,6 @@
+venv
+app.db
+microblog.log*
+pip-log.txt
+*.py[cod]
+.vscode
