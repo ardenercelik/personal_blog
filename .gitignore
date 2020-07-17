@@ -1,6 +1,6 @@
 venv
 app.db
-microblog.log*
+blog.log*
 pip-log.txt
 *.py[cod]
 .vscode

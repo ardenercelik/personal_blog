@@ -6,6 +6,11 @@
     {% else %}
     <title>Welcome to My Blog</title>
     {% endif %}
+
+
+    {{ moment.include_jquery() }}
+    {{ moment.include_moment() }}
+
 </head>
 
 <body>
@@ -30,7 +35,10 @@
         {% endif %}
         {% endwith %}
     </div>
+
+
     {% block content %}{% endblock %}
 </body>
+
 
 </html>
