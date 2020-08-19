@@ -1,4 +1,5 @@
 venv
+logs
 app.db
 blog.log*
 pip-log.txt
