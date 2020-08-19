@@ -1,0 +1,10 @@
+[Unit]
+Description=gunicorn to serve flask-project
+After=network.target
+
+[Service]
+WorkingDirectory=/home/ubuntu/personal_blog
+ExecStart=/usr/bin/gunicorn3 -b 0.0.0.0:8080 --chdir /home/ubuntu/personal_blog  app:app
+
+[Install]
+WantedBy=multi-user.target
